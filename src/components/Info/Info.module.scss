@@ -1,0 +1,56 @@
+.info {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+.clients {
+  display: flex;
+  row-gap: 10px;
+
+  & :first-child {
+    min-width: 50%;
+  }
+
+  &_buttons {
+    display: flex;
+    column-gap: 10px;
+  }
+}
+
+.holdings {
+  &_links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0f85da;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.web {
+  display: flex;
+  column-gap: 15px;
+
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  &_link {
+    color: #0f85da;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.block_title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
